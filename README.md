@@ -2,14 +2,13 @@
 
 ## Overview
 
-_**Nighty Night** is a web application that helps you get ready for bedtime by clearing your mind and reducing anxiety. By using the product, you will get the distractions out of your mind and gain the peacefulness desired for a good night sleep. 
-
+**Nighty Night** is a web application that helps you get ready for bedtime by clearing your mind and reducing anxiety. By using the product, you will get the distractions out of your mind and gain the peacefulness desired for a good night sleep. 
 
 <br>
 
 ## MVP
 
-_The **Nighty Night** MVP allows users to create accounts. And with that account, the user can write down great things happening that day and why before bedtime. Research has shown that it helps reduce anxiety and depression. In additon, the user can jog down a to-do list for the following day, which helps people get out any distractions out of their minds. You can have it set, and don't have to worry about what should be done anymore (which really negative impacts your sleep quality). The app will save everything and remind you the next morning. The MVP will also include the reward badge system as well as a list of white noise soundtracks and promote mindfulness. 
+The **Nighty Night** MVP allows users to create accounts. And with that account, the user can write down great things happening that day and why before bedtime. Research has shown that it helps reduce anxiety and depression. In additon, the user can jog down a to-do list for the following day, which helps people get out any distractions out of their minds. You can have it set, and don't have to worry about what should be done anymore (which really negative impacts your sleep quality). The app will save everything and remind you the next morning. The MVP will also include the reward badge system as well as a list of white noise soundtracks and promote mindfulness. 
 
 <br>
 
@@ -23,7 +22,6 @@ _The **Nighty Night** MVP allows users to create accounts. And with that account
 - Send out email reminder of the to-do list the next morning
 - A reward badge system
 - Soundscape: a list of soothing soundtracks (including favorites feature)
-
 
 <br>
 
@@ -43,20 +41,11 @@ _The **Nighty Night** MVP allows users to create accounts. And with that account
 
 #### Wireframes
 
-
-![Dummy Link](url)
-
-- Desktop Landing
-
-
-![Dummy Link](url)
+![Desktop Dashboard](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594617163/Dashboard_osl4es.png)
 
 - Desktop Dashboard
 
-
-
-#### Component Tree
-
+<br>
 
 #### Component Hierarchy
 
@@ -91,6 +80,7 @@ src
 |__ services/
 
 ```
+<br>
 
 #### Component Breakdown
 
@@ -134,7 +124,7 @@ src
 ### Server (Back End)
 
 
-![#### ERD Model](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594614315/Night_ERD_pnsoik.png)
+####[ERD Model](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594614315/Night_ERD_pnsoik.png)
 
 <br>
 
@@ -142,13 +132,14 @@ src
 
 ## Post-MVP
 
-***
 - Add an onboarding stepper that introduces new users to the app
 - Add additional contents that can help faciliate a better nighttime environment (e.g. ASMR, Bedtime stories, Bedtime Routine Tips)
 
+<br>
+
 ## Code Showcase
 
-
+<br>
 
 ## Code Issues & Resolutions
 
