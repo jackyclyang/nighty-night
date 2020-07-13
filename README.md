@@ -45,6 +45,10 @@ The **Nighty Night** MVP allows users to create accounts. And with that account,
 
 - Desktop Dashboard
 
+![Desktop Great_Things](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594617789/GreatThings_d7tipf.png)
+
+- Desktop Great Things
+
 <br>
 
 #### Component Hierarchy
