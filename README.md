@@ -39,6 +39,14 @@ The **Nighty Night** MVP allows users to create accounts. And with that account,
 
 #### Wireframes
 
+![Desktop Landing Page](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594670829/Landing_Page_pcudxz.png)
+
+- Desktop Landing Page
+
+![Desktop Sign up](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594670829/Sign_up_wk8oww.png)
+
+- Desktop Sign up
+
 ![Desktop Dashboard](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594617163/Dashboard_osl4es.png)
 
 - Desktop Dashboard
@@ -47,7 +55,32 @@ The **Nighty Night** MVP allows users to create accounts. And with that account,
 
 - Desktop Great Things
 
+![Desktop Great_Things Created](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594670830/GreatThings_History_v655at.png)
+
+- Desktop Great Things Created
+
+![Desktop Great_Things Calendar](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594670829/GreatThings_Calendar_vghqeh.png)
+
+- Desktop Great Things Calendar
+
+![Desktop To Do Empty](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594670829/ToDo_Empty_jq4t8a.png)
+
+- Desktop To Do (empty)
+
+
+![Desktop To Do List](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594670830/ToDo_list_r6uleq.png)
+
+- Desktop To Do
+
+![Desktop User Profile](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594670830/User_Profile_zts9yr.png)
+
+- Desktop User Profile
+
+
 <br>
+
+
+#### [Component Tree](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594670830/ComponentTree_mz3ehl.png)
 
 #### Component Hierarchy
 
@@ -60,17 +93,20 @@ src
 |__ components/
       |__ Header.jsx
       |__ LandingPage.jsx
+      |__ Main.jsx 
             |__ Sign up.jsx
             |__ Sign in.jsx
-      |__ Main.jsx 
             |__ Dashboard.jsx
             |__ ToDo.jsx
-                  |__ ToDoListForTmr.jsx
+                  |__ ToDoItem.jsx
+                  |__ CreateToDoItem.jsx
+                  |__ UpdateToDoItem.jsx
+                  |__ DeleteToDoItem.jsx
             |__ GreatThings.jsx
-                  |__ GreatThingsToday.jsx
+                  |__ GreatThingsOneDay.jsx
                   |__ GreatThingsCalendar.jsx
+                  |__ CreateGreatThingsOneDay.jsx
             |__ UserProfile.jsx
-      |__ About.jsx
 |__ services/
 
 ```
