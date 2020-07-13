@@ -42,40 +42,48 @@ The **Nighty Night** MVP allows users to create accounts. And with that account,
 ![Desktop Landing Page](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594670829/Landing_Page_pcudxz.png)
 
 - Desktop Landing Page
+<br>
 
 ![Desktop Sign up](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594670829/Sign_up_wk8oww.png)
 
 - Desktop Sign up
+<br>
 
 ![Desktop Dashboard](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594671189/Dashboard_bvvuet.png)
 
 - Desktop Dashboard
+<br>
 
 ![Desktop Great_Things](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594671189/GreatThings_hibk3a.png)
 
 - Desktop Great Things
+<br>
 
 ![Desktop Great_Things Created](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594670830/GreatThings_History_v655at.png)
 
 - Desktop Great Things Created
+<br>
 
 ![Desktop Great_Things Calendar](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594670829/GreatThings_Calendar_vghqeh.png)
 
 - Desktop Great Things Calendar
+<br>
 
 ![Desktop To Do Empty](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594670829/ToDo_Empty_jq4t8a.png)
 
 - Desktop To Do (empty)
+<br>
 
 
 ![Desktop To Do List](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594670830/ToDo_list_r6uleq.png)
 
 - Desktop To Do
+<br>
 
 ![Desktop User Profile](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594670830/User_Profile_zts9yr.png)
 
 - Desktop User Profile
-
+<br>
 
 <br>
 
