@@ -1,41 +1,41 @@
-# nighty-night
+# Nighty Night
 
 ## Overview
 
-_**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_**Nighty Night** is a web application that helps you get ready for bedtime by clearing your mind and reducing anxiety. By using the product, you will get the distractions out of your mind and gain the peacefulness desired for a good night sleep. 
 
 
 <br>
 
 ## MVP
 
-> The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
-
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_The **Nighty Night** MVP allows users to create accounts. And with that account, the user can write down great things happening that day and why before bedtime. Research has shown that it helps reduce anxiety and depression. In additon, the user can jog down a to-do list for the following day, which helps people get out any distractions out of their minds. You can have it set, and don't have to worry about what should be done anymore (which really negative impacts your sleep quality). The app will save everything and remind you the next morning. The MVP will also include the reward badge system as well as a list of white noise soundtracks and promote mindfulness. 
 
 <br>
 
 ### Goals
 
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
+- Create account
+- Sign in/Sign out
+- Write down great things happening that day (text, image)
+- Check out the history of great things
+- Write down to-do list for the following day (text, image)
+- Send out email reminder of the to-do list the next morning
+- A reward badge system
+- Soundscape: a list of soothing soundtracks (including favorites feature)
+
 
 <br>
 
 ### Libraries and Dependencies
 
-> Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
+|      React       | Front-end component framework |
+|   React Router   | Front-end library to set up routes and links |
+|      Axios       | Render API from backend |
+|      Rails       | Back-end framework with Ruby |
 
 <br>
 
@@ -43,85 +43,98 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 #### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
 ![Dummy Link](url)
 
 - Desktop Landing
 
-![Dummy Link](url)
-
-- Desktop Hero
 
 ![Dummy Link](url)
 
-- Resource Index
+- Desktop Dashboard
 
-![Dummy Link](url)
 
-- Resource Show
-
-![Dummy Link](url)
-
-- Tablet Resource Index
-
-![Dummy Link](url)
-
-- Mobile Resource Index
 
 #### Component Tree
 
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. 
 
 #### Component Hierarchy
 
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
 
 ``` structure
 
 src
 |__ assets/
-      |__ fonts
-      |__ graphics
       |__ images
-      |__ mockups
 |__ components/
       |__ Header.jsx
+      |__ Home.jsx
+            |__ Sign up.jsx
+            |__ Sign in.jsx
+      |__ Main.jsx 
+            |__ Dashboard.jsx
+                  |__ Badges.jsx
+                  |__ Reminder.jsx
+            |__ ToDo.jsx
+                  |__ ToDoListForTmr.jsx
+                  |__ ToDoCalendar.jsx
+            |__ GreatThings.jsx
+                  |__ GreatThingsToday.jsx
+                  |__ GreatThingsCalendar.jsx
+            |__ Soundscape.jsx
+                  |__ Soundtrack.jsx
+                  |__ Favorites.jsx
+            |__ UserProfile.jsx
+                  |__ Badges.jsx
+                  |__ Settings.jsx
+      |__ About.jsx
 |__ services/
 
 ```
 
 #### Component Breakdown
 
-> Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
 
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
-|    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
-|  Navigation  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
-|   Gallery    |   class    |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
-| Gallery Card | functional |   n   |   y   | _The cards will render the post info via props._                 |
-|    Footer    | functional |   n   |   n   | _The footer will show info about me and a link to my portfolio._ |
+|    Header    | functional |   n   |   n   | _The Header will contain the navigation and logo._               |
+|     Home     |   class    |   y   |   y   | _The Home will be the homepage including login and signup._      |
+|  Dashboard   |   class    |   y   |   y   | _The Dashboard will be the landing page after user sign in._     |
+|     ToDo     |   class    |   y   |   y   | _The ToDo will allow users to create/read/update/delete their to do list for the next day._      |
+| GreatThings  |   class    |   y   |   y   | _The GreatThings will users to create/read/update/delete great things happening on the day_      |
+|  Soundscape  |   class    |   y   |   y   | _The Soundscape will contain soundtracks of natural soothing sounds_      |
+| UserProfile  |   class    |   y   |   y   | _The UserProfile will contain user information with CRUD actions as well as Badges_      |
+|    About     | functional |   n   |   n   | _The About will explain what this app does and why_      |
+
 
 #### Time Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above.
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| Back-end setup      |    H     |     10 hrs     |       -       |     TBD     |
+| Seed data           |    M     |     4 hrs      |       -       |     TBD     |
+| Services setup      |    H     |     6 hrs      |       -       |     TBD     |
+| Header              |    L     |     1 hrs      |       -       |     TBD     |
+| Home Page           |    H     |     2 hrs      |       -       |     TBD     |
+| Dashboard           |    H     |     4 hrs      |       -       |     TBD     |
+| ToDo List CRUD      |    H     |     10 hrs     |       -       |     TBD     |
+| Great Things CRUD   |    H     |     10 hrs     |       -       |     TBD     |
+| Soundscape          |    H     |     6 hrs      |       -       |     TBD     |
+| User Profile (CRUD) |    H     |     10 hrs     |       -       |     TBD     |
+| About               |    L     |     4 hrs      |       -       |     TBD     |
+| Additional Styling  |    L     |     4 hrs      |       -       |     TBD     |
+| Deployment          |    H     |     1 hrs      |       -       |     TBD     |
+| TOTAL               |          |     72 hrs     |       -       |     TBD     |
 
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
+
 
 <br>
 
 ### Server (Back End)
 
-#### ERD Model
 
-> Use this section to display an image of a computer generated ERD model. You can use draw.io, Lucidchart or another ERD tool.
+![#### ERD Model](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594614315/Night_ERD_pnsoik.png)
 
 <br>
 
@@ -129,14 +142,14 @@ src
 
 ## Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
-
 ***
+- Add an onboarding stepper that introduces new users to the app
+- Add additional contents that can help faciliate a better nighttime environment (e.g. ASMR, Bedtime stories, Bedtime Routine Tips)
 
 ## Code Showcase
 
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+
 
 ## Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution.
+
