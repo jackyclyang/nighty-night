@@ -47,11 +47,11 @@ The **Nighty Night** MVP allows users to create accounts. And with that account,
 
 - Desktop Sign up
 
-![Desktop Dashboard](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594617163/Dashboard_osl4es.png)
+![Desktop Dashboard](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594671189/Dashboard_bvvuet.png)
 
 - Desktop Dashboard
 
-![Desktop Great_Things](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594617789/GreatThings_d7tipf.png)
+![Desktop Great_Things](https://res.cloudinary.com/dvmkqx6v1/image/upload/v1594671189/GreatThings_hibk3a.png)
 
 - Desktop Great Things
 
