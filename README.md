@@ -107,6 +107,7 @@ src
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
 | Back-end setup      |    H     |     10 hrs     |       -       |     TBD     |
+| User authentication |    H     |     4 hrs      |       -       |     TBD     |
 | Seed data           |    M     |     4 hrs      |       -       |     TBD     |
 | Services setup      |    H     |     6 hrs      |       -       |     TBD     |
 | Header              |    L     |     1 hrs      |       -       |     TBD     |
@@ -119,7 +120,7 @@ src
 | About               |    L     |     4 hrs      |       -       |     TBD     |
 | Additional Styling  |    L     |     4 hrs      |       -       |     TBD     |
 | Deployment          |    H     |     1 hrs      |       -       |     TBD     |
-| TOTAL               |          |     72 hrs     |       -       |     TBD     |
+| TOTAL               |          |     76 hrs     |       -       |     TBD     |
 
 
 
